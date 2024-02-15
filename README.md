@@ -50,7 +50,7 @@ Install `asdf`
 $ git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.14.0
 ```
 
-Install `stow
+Install `stow`
 
 `$ sudo apt install stow`
 
