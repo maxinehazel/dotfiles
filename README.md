@@ -1,10 +1,12 @@
-## README
+# README
 
 New Dotfiles Setup Flow
 
+## WSL
+
 ### 1. Prerequisites
 
-(WSL Only) Symlink repos folder 
+Symlink repos folder 
 
 `$ ln -s /mnt/c/Users/krebs/repos /home/krebs/repos`
 
@@ -20,6 +22,40 @@ Install `gh`
 
 https://github.com/cli/cli
 
+Set git globals
+
+```
+$ git config --global init.defaultBranch main
+$ git config --global user.email "krebs.maxine@gmail.com"
+$ git config --global user.name "Maxine Krebs"
+```
+
 Install `fish`
 
+```
+$ sudo apt-add-repository ppa:fish-shell/release-3
+$ sudo apt update
+$ sudo apt install fish
+
+$ chsh -s $(which fish)
+```
+
 Install `tmux`
+
+`$ sudo apt install tmux -y`
+
+Install `asdf`
+
+```
+$ git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.14.0
+```
+
+Install `stow
+
+`$ sudo apt install stow`
+
+### 2. The Thing
+
+Run stow
+
+`$ stow -t /home/krebs .`

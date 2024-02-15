@@ -1,0 +1,1 @@
+/home/krebs/.fzf/shell/key-bindings.fish
