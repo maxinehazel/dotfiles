@@ -22,14 +22,6 @@ Install `gh`
 
 https://github.com/cli/cli
 
-Set git globals
-
-```
-$ git config --global init.defaultBranch main
-$ git config --global user.email "krebs.maxine@gmail.com"
-$ git config --global user.name "Maxine Krebs"
-```
-
 Install `fish`
 
 ```
@@ -59,3 +51,13 @@ Install `stow`
 Run stow
 
 `$ stow -t /home/krebs .`
+
+### Experimental
+
+Install NeoVim and (sigh) NvChad
+
+```
+$ sudo apt install neovim 
+$ git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+
+```

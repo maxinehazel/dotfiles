@@ -10,7 +10,7 @@ set -xg PATH $GOPATH/bin $PATH
 set -xg PATH $HOME/.cargo/bin $PATH
 set -xg PATH $HOME/.asdf/bin $PATH
 set -xg PATH $HOME/.asdf/shims $PATH
-
+set -xg PATH /opt/nvim-linux64/bin $PATH
 set -xg PATH $HOME/.bin $PATH
 
 set -xg VISUAL vim
