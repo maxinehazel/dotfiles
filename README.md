@@ -51,13 +51,3 @@ Install `stow`
 Run stow
 
 `$ stow -t /home/krebs .`
-
-### Experimental
-
-Install NeoVim and (sigh) NvChad
-
-```
-$ sudo apt install neovim 
-$ git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
-
-```
