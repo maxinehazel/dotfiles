@@ -50,6 +50,12 @@ $ sudo rm -rf /opt/nvim
 $ sudo tar -C /opt -xzf nvim-linux64.tar.gz
 ```
 
+Install Hack Nerd Font Mono
+
+```
+<platform dependant>
+```
+
 Install `stow`
 
 `$ sudo apt install stow`
