@@ -42,6 +42,14 @@ Install `asdf`
 $ git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.14.0
 ```
 
+Install neovim
+
+```
+$ curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
+$ sudo rm -rf /opt/nvim
+$ sudo tar -C /opt -xzf nvim-linux64.tar.gz
+```
+
 Install `stow`
 
 `$ sudo apt install stow`
