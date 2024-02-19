@@ -139,3 +139,13 @@ Install Alacritty
 ```
 <coming soon>
 ```
+
+install Rust
+```
+<coming soon>
+```
+
+Run this command for a bunch of rust utils~
+```
+$ cargo install eza gitui bacon starship bat mprocs
+```

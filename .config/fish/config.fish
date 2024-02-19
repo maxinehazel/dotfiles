@@ -21,3 +21,5 @@ source ~/.asdf/asdf.fish
 if test -e $HOME/.config/fish/config.fish.local
     source $HOME/.config/fish/config.fish.local
 end
+
+starship init fish | source
