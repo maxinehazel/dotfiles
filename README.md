@@ -22,6 +22,8 @@ Install `gh`
 
 https://github.com/cli/cli
 
+`$ gh auth login`
+
 Install `fish`
 
 ```
@@ -47,6 +49,10 @@ Install Hack Nerd Font Mono
 ```
 <platform dependant>
 ```
+
+Install gcc, unzip 
+sudo apt install python3.10-venv
+sudo apt-get install g++
 
 Install `stow`
 

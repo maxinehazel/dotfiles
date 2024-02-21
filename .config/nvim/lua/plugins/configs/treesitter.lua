@@ -8,6 +8,7 @@ local options = {
     "javascript",
     "ruby",
     "python",
+    "rust",
   },
 
   highlight = {
