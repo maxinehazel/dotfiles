@@ -16,8 +16,6 @@ set -xg PATH $HOME/.bin $PATH
 set -xg VISUAL vim
 set -xg EDITOR $VISUAL
 
-source ~/.asdf/asdf.fish
-
 if test -e $HOME/.config/fish/config.fish.local
     source $HOME/.config/fish/config.fish.local
 end
