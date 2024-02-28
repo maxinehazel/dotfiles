@@ -10,6 +10,10 @@ M.dap = {
     ["<leader>dr"] = {
       "<cmd> DapContinue <CR>",
       "Start or continue debugger",
+    },
+    ["<CR>"] = {
+      ":noh<CR><CR>",
+      "Clear highlights after a search",
     }
   }
 }
