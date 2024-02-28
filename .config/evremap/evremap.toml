@@ -1,0 +1,7 @@
+device_name = "Logitech USB Receiver Keyboard"
+
+# Hold capslock for ctrl, tap for esc
+[[dual_role]]
+input = "KEY_CAPSLOCK"
+hold = ["KEY_LEFTCTRL"]
+tap = ["KEY_ESC"]
